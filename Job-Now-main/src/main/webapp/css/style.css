@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+html, body { height: 100%;}
+
+body {display: flex; flex-direction: column;}
+
+.bg-primary {
+	--bs-bg-opacity: .7;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fefefe;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2rem;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
+
+.bg-index {
+	background-image: url("../image/bg_index.png");
+	background-position: top;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+.container {
+	flex: 1 0 auto;
+}
+
+.box {
+	width: 95vw;
+	height: 86vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.text-index {
+	width: 70%;
+	height: auto;
+}
+
+.title-index {
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 800;
+	color: #fff;
+}
+
+.card-header {
+	text-transform: uppercase;
+	color: #333;
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+.card-body {
+	color: #000;
+}
+
+.font-w {
+	font-weight: 700;
+	float: left;
+	margin-right: 1rem;
+}
+
+.footer-copyright {
+	background-color: rgba(0, 0, 0, .7);
+	color: #999;
+	flex-shrink: 0;
+}
+
+.footer-link {
+	text-decoration: none;
+	color: #fefefe;
+}
+.footer-link:hover {
+	color: #999;
+}
+
+@media (min-width: 992px) {
+	.navbar-dark .navbar-nav {
+		margin-right: 7rem;
+	}
+}

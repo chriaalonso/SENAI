@@ -1,0 +1,12 @@
+footer {
+    background-color: rgba(0,0,0, .9);
+    width: 100%;
+    color: #fff;
+}
+footer a {
+    color: rgb(164, 196, 209);
+    text-decoration: none;
+}
+footer a:hover {
+    color: #c6e9f1;
+}
